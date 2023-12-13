@@ -21,8 +21,9 @@ import { FlashComponent } from './components/flash-loading/flash/flash.component
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {HttpManagerInterceptor} from "./components/interceptors/http-manager.interceptor";
 import {AngularFireModule} from "@angular/fire/compat";
-import {environment} from "../environments/environment";
+
 import {AngularFireStorageModule} from "@angular/fire/compat/storage";
+import {environment} from "../environments/environment.development";
 @NgModule({
   declarations: [
     AppComponent,
